@@ -2,7 +2,7 @@
 mod input;
 
 fn main() {
-    input!{
+    input! {
         x: usize
     }
     println!("{}", x.pow(3));

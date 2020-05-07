@@ -2,7 +2,7 @@
 mod input;
 
 fn main() {
-    input!{
+    input! {
         a: usize,
         b: usize,
     }

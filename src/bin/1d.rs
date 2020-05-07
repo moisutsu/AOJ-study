@@ -2,7 +2,7 @@
 mod input;
 
 fn main() {
-    input!{
+    input! {
         s: i32,
     }
     let h = s / 3600;
