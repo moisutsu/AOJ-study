@@ -2,5 +2,5 @@
 mod input;
 
 fn main() {
-    println!("Hello");
+    println!("Hello World");
 }
