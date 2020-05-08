@@ -1,5 +1,5 @@
-use std::collections::HashMap;
 use std::char::from_u32;
+use std::collections::HashMap;
 use std::io::*;
 
 #[macro_use]

@@ -17,5 +17,4 @@ fn main() {
         }
         println!("{}", total);
     }
-    
 }

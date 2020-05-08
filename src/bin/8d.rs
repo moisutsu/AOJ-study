@@ -10,7 +10,11 @@ fn main() {
     for s_i in 0..s.len() {
         let mut count = 0;
         for p_i in 0..p.len() {
-            let index = if s_i + p_i >= s.len() { s_i + p_i - s.len()} else { s_i + p_i};
+            let index = if s_i + p_i >= s.len() {
+                s_i + p_i - s.len()
+            } else {
+                s_i + p_i
+            };
             if s.chars().nth(index) == p.chars().nth(p_i) {
                 count += 1;
             } else {
